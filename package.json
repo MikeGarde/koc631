@@ -1,0 +1,22 @@
+{
+  "name": "koc631",
+  "version": "1.0.0",
+  "description": "koc631",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeGarde/koc631.git"
+  },
+  "author": "Mike Garde",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/MikeGarde/koc631/issues"
+  },
+  "homepage": "https://github.com/MikeGarde/koc631#readme",
+  "devDependencies": {
+    "@types/jquery": "^2.0.45"
+  }
+}
