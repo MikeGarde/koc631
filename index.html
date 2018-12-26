@@ -479,25 +479,26 @@
             <div class="row">
                 <div class="col-lg-9">
                     <h4>Pay Dues Online</h4>
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick">
-                        <input type="hidden" name="hosted_button_id" value="VVXGLQ9SJ8G8W">
+                        <input type="hidden" name="hosted_button_id" value="63PZNUCCE3HX6">
                         <table>
                             <tr>
-                                <td><input type="hidden" name="on0" value="Member Type">Member Type</td>
+                                <td><input type="hidden" name="on0" value="Dues options">Dues options</td>
                             </tr>
                             <tr>
                                 <td><select name="os0">
-                                    <option value="Regular">Regular $50.00 USD</option>
-                                    <option value="Honorary">Honorary $13.00 USD</option>
-                                    <option value="Active Military">Active Military $13.00 USD</option>
-                                    <option value="Initiation Fee">Initiation Fee $15.00 USD</option>
+                                    <option value="Regular member">Regular member $50.00 USD</option>
+                                    <option value="Honorary member">Honorary member $13.00 USD</option>
+                                    <option value="Active military">Active military $13.00 USD</option>
+                                    <option value="Special assesment">Special assessment $5.00 USD</option>
+                                    <option value="Initiation fee">Initiation fee $15.00 USD</option>
                                 </select></td>
                             </tr>
                         </table>
                         <input type="hidden" name="currency_code" value="USD">
-                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
-                               border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0"
+                               name="submit" alt="PayPal - The safer, easier way to pay online!">
                         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1"
                              height="1">
                     </form>
